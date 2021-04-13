@@ -4,6 +4,10 @@ PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 # Overlay
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
+    
+# Nusantara Papers
+PRODUCT_PACKAGES += \
+	NusantaraPapers
 
 # Inherit from msm8998-common
 $(call inherit-product, device/xiaomi/msm8998-common/msm8998.mk)
