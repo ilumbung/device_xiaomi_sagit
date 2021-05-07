@@ -30,6 +30,9 @@ $(call inherit-product-if-exists, vendor/apps/GooglePinYin/config.mk)
 # MiuiCamera
 $(call inherit-product-if-exists, vendor/apps/MiuiCamera/config.mk)
 
+# GoogleCamera
+$(call inherit-product-if-exists, vendor/apps/GoogleCamera/config.mk)
+
 # OTA
 $(call inherit-product-if-exists, vendor/apps/Updater/config.mk)
 
